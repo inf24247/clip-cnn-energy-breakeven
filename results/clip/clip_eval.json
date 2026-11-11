@@ -1,0 +1,328 @@
+{
+  "kind": "clip",
+  "precision": "fp16",
+  "arch": "ViT-B-32/openai",
+  "params_visual": 87849216,
+  "params_total": 151277313,
+  "prompt_sets": {
+    "basic": {
+      "ok": [
+        "a photo of a good metal casting."
+      ],
+      "def": [
+        "a photo of a defective metal casting."
+      ]
+    },
+    "descriptive": {
+      "ok": [
+        "a top-view photo of a flawless cast metal impeller with a smooth, intact surface."
+      ],
+      "def": [
+        "a top-view photo of a cast metal impeller with defects such as blowholes, pinholes, cracks, burrs or a damaged edge."
+      ]
+    },
+    "ensemble": {
+      "ok": [
+        "a photo of a good metal casting.",
+        "a photo of a flawless cast impeller.",
+        "a photo of a non-defective casting part.",
+        "a close-up photo of a good metal casting.",
+        "a close-up photo of a flawless cast impeller.",
+        "a close-up photo of a non-defective casting part.",
+        "a grayscale photo of a good metal casting.",
+        "a grayscale photo of a flawless cast impeller.",
+        "a grayscale photo of a non-defective casting part.",
+        "an industrial inspection image of a good metal casting.",
+        "an industrial inspection image of a flawless cast impeller.",
+        "an industrial inspection image of a non-defective casting part.",
+        "a photo of the good metal casting on a production line.",
+        "a photo of the flawless cast impeller on a production line.",
+        "a photo of the non-defective casting part on a production line."
+      ],
+      "def": [
+        "a photo of a defective metal casting.",
+        "a photo of a cracked cast impeller.",
+        "a photo of a casting part with blowholes.",
+        "a close-up photo of a defective metal casting.",
+        "a close-up photo of a cracked cast impeller.",
+        "a close-up photo of a casting part with blowholes.",
+        "a grayscale photo of a defective metal casting.",
+        "a grayscale photo of a cracked cast impeller.",
+        "a grayscale photo of a casting part with blowholes.",
+        "an industrial inspection image of a defective metal casting.",
+        "an industrial inspection image of a cracked cast impeller.",
+        "an industrial inspection image of a casting part with blowholes.",
+        "a photo of the defective metal casting on a production line.",
+        "a photo of the cracked cast impeller on a production line.",
+        "a photo of the casting part with blowholes on a production line."
+      ]
+    }
+  },
+  "zero_shot": {
+    "basic": {
+      "val": {
+        "accuracy": 0.6114457831325302,
+        "f1_defect": 0.7430278884462151,
+        "f1_macro": 0.47336579607495943,
+        "tp": 373,
+        "fp": 255,
+        "tn": 33,
+        "fn": 3,
+        "n_correct": 406,
+        "n": 664
+      },
+      "test": {
+        "accuracy": 0.6713286713286714,
+        "f1_defect": 0.7925860547219771,
+        "f1_macro": 0.5006701317380929,
+        "tp": 449,
+        "fp": 231,
+        "tn": 31,
+        "fn": 4,
+        "n_correct": 480,
+        "n": 715
+      }
+    },
+    "descriptive": {
+      "val": {
+        "accuracy": 0.6355421686746988,
+        "f1_defect": 0.6472303206997084,
+        "f1_macro": 0.635141640100633,
+        "tp": 222,
+        "fp": 88,
+        "tn": 200,
+        "fn": 154,
+        "n_correct": 422,
+        "n": 664
+      },
+      "test": {
+        "accuracy": 0.6335664335664336,
+        "f1_defect": 0.6597402597402597,
+        "f1_macro": 0.6313852813852814,
+        "tp": 254,
+        "fp": 63,
+        "tn": 199,
+        "fn": 199,
+        "n_correct": 453,
+        "n": 715
+      }
+    },
+    "ensemble": {
+      "val": {
+        "accuracy": 0.4879518072289157,
+        "f1_defect": 0.3584905660377358,
+        "f1_macro": 0.46621270156523387,
+        "tp": 95,
+        "fp": 59,
+        "tn": 229,
+        "fn": 281,
+        "n_correct": 324,
+        "n": 664
+      },
+      "test": {
+        "accuracy": 0.43496503496503497,
+        "f1_defect": 0.3333333333333333,
+        "f1_macro": 0.42152103559870546,
+        "tp": 101,
+        "fp": 52,
+        "tn": 210,
+        "fn": 352,
+        "n_correct": 311,
+        "n": 715
+      }
+    }
+  },
+  "chosen_prompt_set": "basic",
+  "linear_probe": [
+    {
+      "seed": 0,
+      "C": 100.0,
+      "val_f1_by_C": {
+        "0.1": 0.9280205655526992,
+        "1.0": 0.9629629629629629,
+        "10.0": 0.9813829787234043,
+        "100.0": 0.992,
+        "1000.0": 0.9906542056074766
+      },
+      "energy": {
+        "duration_s": 2.8018092370002705,
+        "gpu_j": 441.86480377388943,
+        "cpu_j": 114.21736,
+        "gpu_mean_w": 157.70695518406086,
+        "n_samples": 142,
+        "total_j": 556.0821637738894
+      },
+      "energy_net": {
+        "gpu_j": 414.4845890232015,
+        "cpu_j": 52.360340968019266,
+        "total_j": 466.8449299912208
+      },
+      "test": {
+        "accuracy": 0.9874125874125874,
+        "f1_defect": 0.9900552486187846,
+        "f1_macro": 0.9864561957379637,
+        "tp": 448,
+        "fp": 4,
+        "tn": 258,
+        "fn": 5,
+        "n_correct": 706,
+        "n": 715
+      }
+    },
+    {
+      "seed": 1,
+      "C": 100.0,
+      "val_f1_by_C": {
+        "0.1": 0.9280205655526992,
+        "1.0": 0.9629629629629629,
+        "10.0": 0.9813829787234043,
+        "100.0": 0.992,
+        "1000.0": 0.9906542056074766
+      },
+      "energy": {
+        "duration_s": 2.8814566879991617,
+        "gpu_j": 470.74476113258606,
+        "cpu_j": 119.930428,
+        "gpu_mean_w": 163.37041021410036,
+        "n_samples": 146,
+        "total_j": 590.6751891325861
+      },
+      "energy_net": {
+        "gpu_j": 442.5862049145721,
+        "cpu_j": 56.31499021943882,
+        "total_j": 498.9011951340109
+      },
+      "test": {
+        "accuracy": 0.9874125874125874,
+        "f1_defect": 0.9900552486187846,
+        "f1_macro": 0.9864561957379637,
+        "tp": 448,
+        "fp": 4,
+        "tn": 258,
+        "fn": 5,
+        "n_correct": 706,
+        "n": 715
+      }
+    },
+    {
+      "seed": 2,
+      "C": 100.0,
+      "val_f1_by_C": {
+        "0.1": 0.9280205655526992,
+        "1.0": 0.9629629629629629,
+        "10.0": 0.9813829787234043,
+        "100.0": 0.992,
+        "1000.0": 0.9906542056074766
+      },
+      "energy": {
+        "duration_s": 3.068339831999765,
+        "gpu_j": 472.9802018510145,
+        "cpu_j": 131.507817,
+        "gpu_mean_w": 154.1485714581861,
+        "n_samples": 155,
+        "total_j": 604.4880188510144
+      },
+      "energy_net": {
+        "gpu_j": 442.99536119205885,
+        "cpu_j": 63.76646156503834,
+        "total_j": 506.7618227570972
+      },
+      "test": {
+        "accuracy": 0.9874125874125874,
+        "f1_defect": 0.9900552486187846,
+        "f1_macro": 0.9864561957379637,
+        "tp": 448,
+        "fp": 4,
+        "tn": 258,
+        "fn": 5,
+        "n_correct": 706,
+        "n": 715
+      }
+    },
+    {
+      "seed": 3,
+      "C": 100.0,
+      "val_f1_by_C": {
+        "0.1": 0.9280205655526992,
+        "1.0": 0.9629629629629629,
+        "10.0": 0.9813829787234043,
+        "100.0": 0.992,
+        "1000.0": 0.9906542056074766
+      },
+      "energy": {
+        "duration_s": 2.76553512800092,
+        "gpu_j": 470.8355883500535,
+        "cpu_j": 114.665732,
+        "gpu_mean_w": 170.251168962876,
+        "n_samples": 140,
+        "total_j": 585.5013203500536
+      },
+      "energy_net": {
+        "gpu_j": 443.80985629618027,
+        "cpu_j": 53.60955558824822,
+        "total_j": 497.4194118844285
+      },
+      "test": {
+        "accuracy": 0.9874125874125874,
+        "f1_defect": 0.9900552486187846,
+        "f1_macro": 0.9864561957379637,
+        "tp": 448,
+        "fp": 4,
+        "tn": 258,
+        "fn": 5,
+        "n_correct": 706,
+        "n": 715
+      }
+    },
+    {
+      "seed": 4,
+      "C": 100.0,
+      "val_f1_by_C": {
+        "0.1": 0.9280205655526992,
+        "1.0": 0.9629629629629629,
+        "10.0": 0.9813829787234043,
+        "100.0": 0.992,
+        "1000.0": 0.9906542056074766
+      },
+      "energy": {
+        "duration_s": 2.724565045999043,
+        "gpu_j": 469.30640895850956,
+        "cpu_j": 112.872367,
+        "gpu_mean_w": 172.25002928363722,
+        "n_samples": 138,
+        "total_j": 582.1787759585095
+      },
+      "energy_net": {
+        "gpu_j": 442.6810502165487,
+        "cpu_j": 52.72070867915337,
+        "total_j": 495.4017588957021
+      },
+      "test": {
+        "accuracy": 0.9874125874125874,
+        "f1_defect": 0.9900552486187846,
+        "f1_macro": 0.9864561957379637,
+        "tp": 448,
+        "fp": 4,
+        "tn": 258,
+        "fn": 5,
+        "n_correct": 706,
+        "n": 715
+      }
+    }
+  ],
+  "idle": {
+    "gpu_w": 9.772333672510223,
+    "cpu_w": 22.07752698331716,
+    "duration_s": 30.00041949899969
+  },
+  "env": {
+    "torch": "2.14.1+rocm7.2",
+    "torchvision": "0.29.1+rocm7.2",
+    "python": "3.12.16",
+    "cpu": "x86_64",
+    "precision": "fp16",
+    "gpu": "AMD Radeon Graphics (gfx1201)",
+    "hip": "7.2.53211"
+  },
+  "timestamp": "2026-11-03 14:01:07"
+}

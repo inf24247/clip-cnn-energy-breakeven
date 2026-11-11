@@ -1,0 +1,400 @@
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[mobilenetv3 seed 0] Idle-Messung 30 s ...
+  Idle: GPU 10.6 W, CPU 23.2 W
+  ep  0 loss 0.1622 val_acc 0.5979 val_f1 0.4495
+  ep  1 loss 0.0166 val_acc 0.9985 val_f1 0.9987
+  ep  2 loss 0.0102 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0100 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0083 val_acc 0.9985 val_f1 0.9987
+  ep  5 loss 0.0078 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0080 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0075 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0071 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0073 val_acc 0.9985 val_f1 0.9987
+  Energie 21.0 kJ (GPU 17.9, CPU 3.1) in 89 s | Test acc 0.9958 F1 0.9967
+-> results/train/mobilenetv3_s0.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[mobilenetv3 seed 1] Idle-Messung 30 s ...
+  Idle: GPU 9.7 W, CPU 22.1 W
+  ep  0 loss 0.1634 val_acc 0.7289 val_f1 0.6853
+  ep  1 loss 0.0171 val_acc 0.9970 val_f1 0.9973
+  ep  2 loss 0.0322 val_acc 0.9684 val_f1 0.9728
+  ep  3 loss 0.0118 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0097 val_acc 0.9970 val_f1 0.9973
+  ep  5 loss 0.0109 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0090 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0075 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0078 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0071 val_acc 0.9985 val_f1 0.9987
+  Energie 20.9 kJ (GPU 17.8, CPU 3.1) in 90 s | Test acc 0.9986 F1 0.9989
+-> results/train/mobilenetv3_s1.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[mobilenetv3 seed 2] Idle-Messung 30 s ...
+  Idle: GPU 9.6 W, CPU 22.0 W
+  ep  0 loss 0.1653 val_acc 0.7108 val_f1 0.6571
+  ep  1 loss 0.0289 val_acc 0.9834 val_f1 0.9852
+  ep  2 loss 0.0174 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0083 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0085 val_acc 0.9985 val_f1 0.9987
+  ep  5 loss 0.0073 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0074 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0091 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0073 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0068 val_acc 0.9985 val_f1 0.9987
+  Energie 20.9 kJ (GPU 17.8, CPU 3.1) in 90 s | Test acc 0.9958 F1 0.9967
+-> results/train/mobilenetv3_s2.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[mobilenetv3 seed 3] Idle-Messung 30 s ...
+  Idle: GPU 9.7 W, CPU 22.2 W
+  ep  0 loss 0.1500 val_acc 0.6340 val_f1 0.5226
+  ep  1 loss 0.0190 val_acc 0.9684 val_f1 0.9713
+  ep  2 loss 0.0187 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0112 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0093 val_acc 0.9970 val_f1 0.9973
+  ep  5 loss 0.0083 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0077 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0076 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0071 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0070 val_acc 0.9985 val_f1 0.9987
+  Energie 21.0 kJ (GPU 17.8, CPU 3.1) in 90 s | Test acc 0.9972 F1 0.9978
+-> results/train/mobilenetv3_s3.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[mobilenetv3 seed 4] Idle-Messung 30 s ...
+  Idle: GPU 9.9 W, CPU 22.0 W
+  ep  0 loss 0.1504 val_acc 0.8404 val_f1 0.8359
+  ep  1 loss 0.0170 val_acc 0.8358 val_f1 0.8305
+  ep  2 loss 0.0140 val_acc 0.9428 val_f1 0.9468
+  ep  3 loss 0.0177 val_acc 0.9880 val_f1 0.9894
+  ep  4 loss 0.0105 val_acc 0.9985 val_f1 0.9987
+  ep  5 loss 0.0111 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0086 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0070 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0075 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0077 val_acc 0.9985 val_f1 0.9987
+  Energie 21.0 kJ (GPU 17.9, CPU 3.1) in 90 s | Test acc 0.9958 F1 0.9967
+-> results/train/mobilenetv3_s4.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[resnet50 seed 0] Idle-Messung 30 s ...
+  Idle: GPU 9.5 W, CPU 22.0 W
+/home/alberth/Documents/NeueKonzepteDerInformatikPaper/experiment/train.py:52: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+  ep  0 loss 0.2170 val_acc 0.9744 val_f1 0.9769
+  ep  1 loss 0.0280 val_acc 0.9985 val_f1 0.9987
+  ep  2 loss 0.0154 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0114 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0085 val_acc 0.9985 val_f1 0.9987
+  ep  5 loss 0.0084 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0071 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0092 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0063 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0069 val_acc 0.9985 val_f1 0.9987
+  Energie 31.2 kJ (GPU 27.5, CPU 3.7) in 103 s | Test acc 0.9930 F1 0.9945
+-> results/train/resnet50_s0.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[resnet50 seed 1] Idle-Messung 30 s ...
+  Idle: GPU 9.8 W, CPU 22.1 W
+/home/alberth/Documents/NeueKonzepteDerInformatikPaper/experiment/train.py:52: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+  ep  0 loss 0.2197 val_acc 0.9985 val_f1 0.9987
+  ep  1 loss 0.0218 val_acc 0.9955 val_f1 0.9960
+  ep  2 loss 0.0114 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0149 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0105 val_acc 0.9985 val_f1 0.9987
+  ep  5 loss 0.0135 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0078 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0071 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0074 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0072 val_acc 0.9985 val_f1 0.9987
+  Energie 31.2 kJ (GPU 27.6, CPU 3.7) in 104 s | Test acc 0.9958 F1 0.9967
+-> results/train/resnet50_s1.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[resnet50 seed 2] Idle-Messung 30 s ...
+  Idle: GPU 9.9 W, CPU 22.0 W
+  ep  0 loss 0.2193 val_acc 0.9940 val_f1 0.9947
+  ep  1 loss 0.0191 val_acc 0.9819 val_f1 0.9838
+  ep  2 loss 0.0165 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0098 val_acc 0.9970 val_f1 0.9973
+  ep  4 loss 0.0126 val_acc 0.9985 val_f1 0.9987
+  ep  5 loss 0.0093 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0086 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0076 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0064 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0067 val_acc 0.9985 val_f1 0.9987
+  Energie 31.1 kJ (GPU 27.4, CPU 3.7) in 104 s | Test acc 0.9986 F1 0.9989
+-> results/train/resnet50_s2.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[resnet50 seed 3] Idle-Messung 30 s ...
+  Idle: GPU 9.9 W, CPU 22.1 W
+/home/alberth/Documents/NeueKonzepteDerInformatikPaper/experiment/train.py:52: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+  ep  0 loss 0.2283 val_acc 0.9955 val_f1 0.9960
+  ep  1 loss 0.0234 val_acc 0.9985 val_f1 0.9987
+  ep  2 loss 0.0175 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0145 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0097 val_acc 0.9985 val_f1 0.9987
+  ep  5 loss 0.0091 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0079 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0078 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0066 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0066 val_acc 0.9985 val_f1 0.9987
+  Energie 31.2 kJ (GPU 27.5, CPU 3.7) in 104 s | Test acc 0.9930 F1 0.9945
+-> results/train/resnet50_s3.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+[resnet50 seed 4] Idle-Messung 30 s ...
+  Idle: GPU 9.8 W, CPU 21.9 W
+/home/alberth/Documents/NeueKonzepteDerInformatikPaper/experiment/train.py:52: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+  ep  0 loss 0.2206 val_acc 0.9759 val_f1 0.9792
+  ep  1 loss 0.0228 val_acc 0.9985 val_f1 0.9987
+  ep  2 loss 0.0157 val_acc 0.9985 val_f1 0.9987
+  ep  3 loss 0.0110 val_acc 0.9985 val_f1 0.9987
+  ep  4 loss 0.0086 val_acc 0.9955 val_f1 0.9960
+  ep  5 loss 0.0087 val_acc 0.9985 val_f1 0.9987
+  ep  6 loss 0.0081 val_acc 0.9985 val_f1 0.9987
+  ep  7 loss 0.0065 val_acc 0.9985 val_f1 0.9987
+  ep  8 loss 0.0068 val_acc 0.9985 val_f1 0.9987
+  ep  9 loss 0.0065 val_acc 0.9985 val_f1 0.9987
+  Energie 31.2 kJ (GPU 27.5, CPU 3.7) in 104 s | Test acc 0.9986 F1 0.9989
+-> results/train/resnet50_s4.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+zero-shot basic        val F1 0.7430  test acc 0.6713 F1 0.7926
+zero-shot descriptive  val F1 0.6472  test acc 0.6336 F1 0.6597
+zero-shot ensemble     val F1 0.3585  test acc 0.4350 F1 0.3333
+-> gewählt über Val: basic
+Idle: GPU 9.8 W, CPU 22.1 W
+linear probe seed 0: C=100, 0.56 kJ in 2.8 s, test acc 0.9874 F1 0.9901
+linear probe seed 1: C=100, 0.59 kJ in 2.9 s, test acc 0.9874 F1 0.9901
+linear probe seed 2: C=100, 0.60 kJ in 3.1 s, test acc 0.9874 F1 0.9901
+linear probe seed 3: C=100, 0.59 kJ in 2.8 s, test acc 0.9874 F1 0.9901
+linear probe seed 4: C=100, 0.58 kJ in 2.7 s, test acc 0.9874 F1 0.9901
+-> results/clip/clip_eval.json
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+mobilenetv3  bs   1 rep 0: 372.13 mJ/img brutto, 197.92 netto, 182 img/s, GPU 35 W (idle 9.7 W), CPU 33 W (idle 21.9 W) [fp16]
+mobilenetv3  bs   1 rep 1: 371.68 mJ/img brutto, 197.98 netto, 182 img/s, GPU 35 W (idle 9.7 W), CPU 33 W (idle 21.8 W) [fp16]
+mobilenetv3  bs   1 rep 2: 372.41 mJ/img brutto, 199.01 netto, 182 img/s, GPU 35 W (idle 9.6 W), CPU 33 W (idle 21.9 W) [fp16]
+mobilenetv3  bs   1 rep 3: 370.97 mJ/img brutto, 189.86 netto, 182 img/s, GPU 35 W (idle 10.4 W), CPU 32 W (idle 22.6 W) [fp16]
+mobilenetv3  bs   1 rep 4: 372.02 mJ/img brutto, 195.09 netto, 182 img/s, GPU 35 W (idle 10.3 W), CPU 33 W (idle 21.9 W) [fp16]
+-> results/infer/mobilenetv3_bs1_cuda_fp16.json
+mobilenetv3  bs  32 rep 0: 78.54 mJ/img brutto, 67.95 netto, 3007 img/s, GPU 202 W (idle 10.2 W), CPU 34 W (idle 21.7 W) [fp16]
+mobilenetv3  bs  32 rep 1: 78.49 mJ/img brutto, 67.85 netto, 3007 img/s, GPU 202 W (idle 10.2 W), CPU 34 W (idle 21.8 W) [fp16]
+mobilenetv3  bs  32 rep 2: 78.57 mJ/img brutto, 67.84 netto, 3008 img/s, GPU 202 W (idle 10.4 W), CPU 34 W (idle 21.9 W) [fp16]
+mobilenetv3  bs  32 rep 3: 78.61 mJ/img brutto, 67.88 netto, 3008 img/s, GPU 202 W (idle 10.4 W), CPU 34 W (idle 21.9 W) [fp16]
+mobilenetv3  bs  32 rep 4: 78.62 mJ/img brutto, 67.86 netto, 3008 img/s, GPU 202 W (idle 10.5 W), CPU 34 W (idle 21.9 W) [fp16]
+-> results/infer/mobilenetv3_bs32_cuda_fp16.json
+resnet50     bs   1 rep 0: 474.88 mJ/img brutto, 313.08 netto, 201 img/s, GPU 63 W (idle 10.5 W), CPU 33 W (idle 22.0 W) [fp16]
+resnet50     bs   1 rep 1: 475.82 mJ/img brutto, 313.14 netto, 201 img/s, GPU 63 W (idle 10.7 W), CPU 33 W (idle 22.0 W) [fp16]
+resnet50     bs   1 rep 2: 474.71 mJ/img brutto, 310.15 netto, 201 img/s, GPU 63 W (idle 11.0 W), CPU 33 W (idle 22.1 W) [fp16]
+resnet50     bs   1 rep 3: 473.80 mJ/img brutto, 314.48 netto, 201 img/s, GPU 62 W (idle 10.0 W), CPU 33 W (idle 22.0 W) [fp16]
+resnet50     bs   1 rep 4: 475.00 mJ/img brutto, 313.32 netto, 201 img/s, GPU 63 W (idle 10.4 W), CPU 33 W (idle 22.0 W) [fp16]
+-> results/infer/resnet50_bs1_cuda_fp16.json
+resnet50     bs  32 rep 0: 116.81 mJ/img brutto, 105.33 netto, 2859 img/s, GPU 300 W (idle 10.8 W), CPU 34 W (idle 22.0 W) [fp16]
+resnet50     bs  32 rep 1: 116.48 mJ/img brutto, 105.24 netto, 2861 img/s, GPU 299 W (idle 10.0 W), CPU 35 W (idle 22.2 W) [fp16]
+resnet50     bs  32 rep 2: 116.31 mJ/img brutto, 105.16 netto, 2858 img/s, GPU 298 W (idle 9.6 W), CPU 35 W (idle 22.3 W) [fp16]
+resnet50     bs  32 rep 3: 116.40 mJ/img brutto, 105.20 netto, 2856 img/s, GPU 298 W (idle 9.7 W), CPU 35 W (idle 22.3 W) [fp16]
+resnet50     bs  32 rep 4: 116.44 mJ/img brutto, 105.23 netto, 2860 img/s, GPU 298 W (idle 9.8 W), CPU 35 W (idle 22.3 W) [fp16]
+-> results/infer/resnet50_bs32_cuda_fp16.json
+clip_zs      bs   1 rep 0: 665.86 mJ/img brutto, 549.32 netto, 275 img/s, GPU 149 W (idle 9.7 W), CPU 34 W (idle 22.3 W) [fp16]
+clip_zs      bs   1 rep 1: 667.58 mJ/img brutto, 548.86 netto, 275 img/s, GPU 149 W (idle 10.5 W), CPU 34 W (idle 22.2 W) [fp16]
+clip_zs      bs   1 rep 2: 666.49 mJ/img brutto, 548.98 netto, 275 img/s, GPU 149 W (idle 10.1 W), CPU 34 W (idle 22.2 W) [fp16]
+clip_zs      bs   1 rep 3: 667.70 mJ/img brutto, 550.59 netto, 275 img/s, GPU 149 W (idle 10.1 W), CPU 34 W (idle 22.1 W) [fp16]
+clip_zs      bs   1 rep 4: 667.22 mJ/img brutto, 551.23 netto, 275 img/s, GPU 149 W (idle 9.7 W), CPU 34 W (idle 22.1 W) [fp16]
+-> results/infer/clip_zs_bs1_cuda_fp16.json
+clip_zs      bs  32 rep 0: 98.77 mJ/img brutto, 88.79 netto, 3260 img/s, GPU 287 W (idle 10.3 W), CPU 35 W (idle 22.3 W) [fp16]
+clip_zs      bs  32 rep 1: 98.48 mJ/img brutto, 88.61 netto, 3254 img/s, GPU 285 W (idle 10.1 W), CPU 35 W (idle 22.1 W) [fp16]
+clip_zs      bs  32 rep 2: 98.55 mJ/img brutto, 88.70 netto, 3263 img/s, GPU 286 W (idle 9.9 W), CPU 35 W (idle 22.2 W) [fp16]
+clip_zs      bs  32 rep 3: 98.56 mJ/img brutto, 88.72 netto, 3259 img/s, GPU 286 W (idle 10.0 W), CPU 35 W (idle 22.0 W) [fp16]
+clip_zs      bs  32 rep 4: 98.38 mJ/img brutto, 88.43 netto, 3254 img/s, GPU 285 W (idle 10.3 W), CPU 35 W (idle 22.1 W) [fp16]
+-> results/infer/clip_zs_bs32_cuda_fp16.json
+clip_probe   bs   1 rep 0: 668.15 mJ/img brutto, 551.23 netto, 274 img/s, GPU 149 W (idle 9.9 W), CPU 34 W (idle 22.1 W) [fp16]
+clip_probe   bs   1 rep 1: 667.02 mJ/img brutto, 549.12 netto, 274 img/s, GPU 149 W (idle 10.3 W), CPU 34 W (idle 22.0 W) [fp16]
+clip_probe   bs   1 rep 2: 667.63 mJ/img brutto, 549.29 netto, 274 img/s, GPU 149 W (idle 10.0 W), CPU 34 W (idle 22.4 W) [fp16]
+clip_probe   bs   1 rep 3: 667.51 mJ/img brutto, 550.62 netto, 274 img/s, GPU 149 W (idle 9.9 W), CPU 34 W (idle 22.1 W) [fp16]
+clip_probe   bs   1 rep 4: 667.66 mJ/img brutto, 549.34 netto, 274 img/s, GPU 149 W (idle 10.2 W), CPU 34 W (idle 22.2 W) [fp16]
+-> results/infer/clip_probe_bs1_cuda_fp16.json
+clip_probe   bs  32 rep 0: 98.71 mJ/img brutto, 88.92 netto, 3259 img/s, GPU 287 W (idle 10.0 W), CPU 35 W (idle 21.9 W) [fp16]
+clip_probe   bs  32 rep 1: 98.76 mJ/img brutto, 88.82 netto, 3257 img/s, GPU 287 W (idle 10.3 W), CPU 35 W (idle 22.0 W) [fp16]
+clip_probe   bs  32 rep 2: 98.90 mJ/img brutto, 88.98 netto, 3255 img/s, GPU 287 W (idle 10.0 W), CPU 35 W (idle 22.3 W) [fp16]
+clip_probe   bs  32 rep 3: 98.84 mJ/img brutto, 88.91 netto, 3261 img/s, GPU 287 W (idle 10.2 W), CPU 35 W (idle 22.2 W) [fp16]
+clip_probe   bs  32 rep 4: 99.10 mJ/img brutto, 89.20 netto, 3261 img/s, GPU 288 W (idle 10.1 W), CPU 35 W (idle 22.2 W) [fp16]
+-> results/infer/clip_probe_bs32_cuda_fp16.json
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        18.0823        0.0454         195.9710          3.7162        196.6310
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        27.8945        0.0407         312.8326          1.6047        314.1507
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000         549.7944          1.0566        818.9646
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.4931        0.0153         549.9186          0.9458        556.9289
+[fp16] Break-even mobilenetv3 vs clip_zs: N* ~ 51,266 Inferenzen (~14.24 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even mobilenetv3 vs clip_probe: N* ~ 49,854 Inferenzen (~13.85 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even resnet50 vs clip_zs: N* ~ 117,975 Inferenzen (~32.77 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even resnet50 vs clip_probe: N* ~ 115,819 Inferenzen (~32.17 h bei 1 Teil/s), P(existiert) 1.00
+-> paper/figures/breakeven_net_bs1_cuda_fp16.pdf
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        18.0823        0.0454          67.8756          0.0449         68.1043
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        27.8945        0.0407         105.2307          0.0626        105.6741
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000          88.6491          0.1396        132.0503
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.4931        0.0153          88.9657          0.1432         90.0998
+[fp16] Break-even mobilenetv3 vs clip_zs: N* ~ 869,397 Inferenzen (~241.50 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even mobilenetv3 vs clip_probe: N* ~ 835,051 Inferenzen (~231.96 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even resnet50 vs clip_zs: N* ~ inf Inferenzen (~inf h bei 1 Teil/s), P(existiert) 0.00
+[fp16] Break-even resnet50 vs clip_probe: N* ~ inf Inferenzen (~inf h bei 1 Teil/s), P(existiert) 0.00
+-> paper/figures/breakeven_net_bs32_cuda_fp16.pdf
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        20.9656        0.0586         371.8416          0.5539        373.0939
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        31.1859        0.0312         474.8399          0.7220        476.8407
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000         666.9722          0.7783        993.5107
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.5838        0.0177         667.5954          0.4068        676.1058
+[fp16] Break-even mobilenetv3 vs clip_zs: N* ~ 71,043 Inferenzen (~19.73 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even mobilenetv3 vs clip_probe: N* ~ 68,914 Inferenzen (~19.14 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even resnet50 vs clip_zs: N* ~ 162,236 Inferenzen (~45.07 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even resnet50 vs clip_probe: N* ~ 158,783 Inferenzen (~44.11 h bei 1 Teil/s), P(existiert) 1.00
+-> paper/figures/breakeven_gross_bs1_cuda_fp16.pdf
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        20.9656        0.0586          78.5684          0.0545         78.8331
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        31.1859        0.0312         116.4879          0.1910        116.9787
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000          98.5484          0.1433        146.7961
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.5838        0.0177          98.8628          0.1517        100.1231
+[fp16] Break-even mobilenetv3 vs clip_zs: N* ~ 1,049,687 Inferenzen (~291.58 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even mobilenetv3 vs clip_probe: N* ~ 1,005,454 Inferenzen (~279.29 h bei 1 Teil/s), P(existiert) 1.00
+[fp16] Break-even resnet50 vs clip_zs: N* ~ inf Inferenzen (~inf h bei 1 Teil/s), P(existiert) 0.00
+[fp16] Break-even resnet50 vs clip_probe: N* ~ inf Inferenzen (~inf h bei 1 Teil/s), P(existiert) 0.00
+-> paper/figures/breakeven_gross_bs32_cuda_fp16.pdf
+HAUPTLAUF_FERTIG
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+mobilenetv3  bs   1 rep 0: 344.22 mJ/img brutto, 188.60 netto, 206 img/s, GPU 38 W (idle 9.8 W), CPU 33 W (idle 22.2 W) [fp32]
+mobilenetv3  bs   1 rep 1: 342.77 mJ/img brutto, 188.07 netto, 206 img/s, GPU 38 W (idle 9.7 W), CPU 33 W (idle 22.2 W) [fp32]
+mobilenetv3  bs   1 rep 2: 342.81 mJ/img brutto, 187.38 netto, 206 img/s, GPU 38 W (idle 10.0 W), CPU 33 W (idle 22.0 W) [fp32]
+-> results/infer/mobilenetv3_bs1_cuda_fp32.json
+mobilenetv3  bs  32 rep 0: 104.22 mJ/img brutto, 91.69 netto, 2582 img/s, GPU 235 W (idle 10.3 W), CPU 34 W (idle 22.1 W) [fp32]
+mobilenetv3  bs  32 rep 1: 104.23 mJ/img brutto, 91.78 netto, 2586 img/s, GPU 235 W (idle 10.3 W), CPU 34 W (idle 21.9 W) [fp32]
+mobilenetv3  bs  32 rep 2: 104.12 mJ/img brutto, 91.80 netto, 2585 img/s, GPU 235 W (idle 9.8 W), CPU 34 W (idle 22.0 W) [fp32]
+-> results/infer/mobilenetv3_bs32_cuda_fp32.json
+resnet50     bs   1 rep 0: 852.74 mJ/img brutto, 727.26 netto, 256 img/s, GPU 186 W (idle 10.0 W), CPU 33 W (idle 22.2 W) [fp32]
+resnet50     bs   1 rep 1: 852.79 mJ/img brutto, 728.43 netto, 257 img/s, GPU 186 W (idle 10.0 W), CPU 33 W (idle 22.0 W) [fp32]
+resnet50     bs   1 rep 2: 852.02 mJ/img brutto, 726.82 netto, 256 img/s, GPU 186 W (idle 10.2 W), CPU 32 W (idle 21.9 W) [fp32]
+-> results/infer/resnet50_bs1_cuda_fp32.json
+resnet50     bs  32 rep 0: 343.95 mJ/img brutto, 310.96 netto, 975 img/s, GPU 300 W (idle 10.2 W), CPU 35 W (idle 22.0 W) [fp32]
+resnet50     bs  32 rep 1: 343.81 mJ/img brutto, 311.15 netto, 974 img/s, GPU 300 W (idle 10.0 W), CPU 35 W (idle 21.8 W) [fp32]
+resnet50     bs  32 rep 2: 343.80 mJ/img brutto, 310.87 netto, 974 img/s, GPU 300 W (idle 10.1 W), CPU 35 W (idle 22.0 W) [fp32]
+-> results/infer/resnet50_bs32_cuda_fp32.json
+clip_zs      bs   1 rep 0: 1208.89 mJ/img brutto, 1065.69 netto, 224 img/s, GPU 236 W (idle 10.1 W), CPU 35 W (idle 22.0 W) [fp32]
+clip_zs      bs   1 rep 1: 1208.81 mJ/img brutto, 1064.38 netto, 224 img/s, GPU 236 W (idle 10.5 W), CPU 34 W (idle 21.9 W) [fp32]
+clip_zs      bs   1 rep 2: 1209.49 mJ/img brutto, 1066.11 netto, 224 img/s, GPU 237 W (idle 10.1 W), CPU 35 W (idle 22.1 W) [fp32]
+-> results/infer/clip_zs_bs1_cuda_fp32.json
+clip_zs      bs  32 rep 0: 1043.23 mJ/img brutto, 934.97 netto, 297 img/s, GPU 276 W (idle 10.3 W), CPU 35 W (idle 21.9 W) [fp32]
+clip_zs      bs  32 rep 1: 1043.39 mJ/img brutto, 935.71 netto, 297 img/s, GPU 275 W (idle 10.0 W), CPU 34 W (idle 22.0 W) [fp32]
+clip_zs      bs  32 rep 2: 1042.22 mJ/img brutto, 934.68 netto, 297 img/s, GPU 275 W (idle 9.8 W), CPU 34 W (idle 22.1 W) [fp32]
+-> results/infer/clip_zs_bs32_cuda_fp32.json
+clip_probe   bs   1 rep 0: 1206.13 mJ/img brutto, 1063.77 netto, 224 img/s, GPU 236 W (idle 9.9 W), CPU 35 W (idle 22.0 W) [fp32]
+clip_probe   bs   1 rep 1: 1208.42 mJ/img brutto, 1065.10 netto, 224 img/s, GPU 237 W (idle 10.3 W), CPU 34 W (idle 21.9 W) [fp32]
+clip_probe   bs   1 rep 2: 1207.67 mJ/img brutto, 1063.89 netto, 224 img/s, GPU 236 W (idle 10.4 W), CPU 34 W (idle 21.9 W) [fp32]
+-> results/infer/clip_probe_bs1_cuda_fp32.json
+clip_probe   bs  32 rep 0: 1042.55 mJ/img brutto, 934.89 netto, 297 img/s, GPU 276 W (idle 10.0 W), CPU 34 W (idle 22.0 W) [fp32]
+clip_probe   bs  32 rep 1: 1042.89 mJ/img brutto, 934.82 netto, 297 img/s, GPU 275 W (idle 10.1 W), CPU 34 W (idle 22.0 W) [fp32]
+clip_probe   bs  32 rep 2: 1044.93 mJ/img brutto, 937.70 netto, 297 img/s, GPU 276 W (idle 9.7 W), CPU 34 W (idle 22.1 W) [fp32]
+-> results/infer/clip_probe_bs32_cuda_fp32.json
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        18.0823        0.0454         188.0153          0.6083        188.6485
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        27.8945        0.0407         727.5052          0.8338        730.5705
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000        1065.3937          0.9054       1586.9927
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.4931        0.0153        1064.2544          0.7362       1077.8213
+[fp32] Break-even mobilenetv3 vs clip_zs: N* ~ 20,601 Inferenzen (~5.72 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even mobilenetv3 vs clip_probe: N* ~ 20,071 Inferenzen (~5.58 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_zs: N* ~ 82,532 Inferenzen (~22.93 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_probe: N* ~ 81,388 Inferenzen (~22.61 h bei 1 Teil/s), P(existiert) 1.00
+-> paper/figures/breakeven_net_bs1_cuda_fp32.pdf
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        18.0823        0.0454          91.7571          0.0624         92.0662
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        27.8945        0.0407         310.9940          0.1444        312.3044
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000         935.1192          0.5315       1392.9380
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.4931        0.0153         935.8038          1.6456        947.7333
+[fp32] Break-even mobilenetv3 vs clip_zs: N* ~ 21,432 Inferenzen (~5.95 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even mobilenetv3 vs clip_probe: N* ~ 20,838 Inferenzen (~5.79 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_zs: N* ~ 44,701 Inferenzen (~12.42 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_probe: N* ~ 43,869 Inferenzen (~12.19 h bei 1 Teil/s), P(existiert) 1.00
+-> paper/figures/breakeven_net_bs32_cuda_fp32.pdf
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        20.9656        0.0586         343.2696          0.8235        344.4257
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        31.1859        0.0312         852.5168          0.4323        856.1088
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000        1209.0667          0.3717       1801.0056
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.5838        0.0177        1207.4062          1.1643       1222.7981
+[fp32] Break-even mobilenetv3 vs clip_zs: N* ~ 24,209 Inferenzen (~6.72 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even mobilenetv3 vs clip_probe: N* ~ 23,585 Inferenzen (~6.55 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_zs: N* ~ 87,451 Inferenzen (~24.29 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_probe: N* ~ 86,195 Inferenzen (~23.94 h bei 1 Teil/s), P(existiert) 1.00
+-> paper/figures/breakeven_gross_bs1_cuda_fp32.pdf
+(null): No such file or directory
+(null): No such file or directory
+    variant  n_runs  acc_mean  acc_std  f1_mean  f1_std  train_kj_mean  train_kj_std  mj_per_img_mean  mj_per_img_std  mj_per_correct
+mobilenetv3       5    0.9966   0.0013   0.9973  0.0010        20.9656        0.0586         104.1885          0.0630        104.5394
+   resnet50       5    0.9958   0.0028   0.9967  0.0022        31.1859        0.0312         343.8519          0.0862        345.3007
+    clip_zs       1    0.6713   0.0000   0.7926  0.0000         0.0000        0.0000        1042.9468          0.6310       1553.5561
+ clip_probe       5    0.9874   0.0000   0.9901  0.0000         0.5838        0.0177        1043.4576          1.2862       1056.7595
+[fp32] Break-even mobilenetv3 vs clip_zs: N* ~ 22,328 Inferenzen (~6.20 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even mobilenetv3 vs clip_probe: N* ~ 21,699 Inferenzen (~6.03 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_zs: N* ~ 44,598 Inferenzen (~12.39 h bei 1 Teil/s), P(existiert) 1.00
+[fp32] Break-even resnet50 vs clip_probe: N* ~ 43,764 Inferenzen (~12.16 h bei 1 Teil/s), P(existiert) 1.00
+-> paper/figures/breakeven_gross_bs32_cuda_fp32.pdf
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+(null): No such file or directory
+clip  test_to_train   median 0.9925  p10 0.9878  >=0.95 1.000
+clip  val_to_train    median 0.9930  p10 0.9886  >=0.95 1.000
+clip  train_to_train  median 0.9929  p10 0.9886  >=0.95 1.000
+pixel test_to_train   median 0.9723  p10 0.9166  >=0.95 0.692
+pixel val_to_train    median 0.9737  p10 0.9224  >=0.95 0.709
+pixel train_to_train  median 0.9720  p10 0.9199  >=0.95 0.701
+-> results/summary/leakage_check.json
+FERTIG

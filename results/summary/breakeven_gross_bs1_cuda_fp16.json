@@ -1,0 +1,54 @@
+[
+  {
+    "cnn": "mobilenetv3",
+    "clip": "clip_zs",
+    "p_breakeven_exists": 1.0,
+    "n_star_median": 71043.2980328106,
+    "n_star_ci95": [
+      70497.90763723222,
+      71562.4006850939
+    ],
+    "n_star_correct_median": 33791.9021387363,
+    "hours_at_rate": 19.7342494535585,
+    "p_cnn_dominates": 0.0
+  },
+  {
+    "cnn": "mobilenetv3",
+    "clip": "clip_probe",
+    "p_breakeven_exists": 1.0,
+    "n_star_median": 68914.16405791562,
+    "n_star_ci95": [
+      68473.97117515086,
+      69357.3606965373
+    ],
+    "n_star_correct_median": 67266.03150618965,
+    "hours_at_rate": 19.142823349421008,
+    "p_cnn_dominates": 0.0
+  },
+  {
+    "cnn": "resnet50",
+    "clip": "clip_zs",
+    "p_breakeven_exists": 1.0,
+    "n_star_median": 162236.4804653073,
+    "n_star_ci95": [
+      160835.2944147284,
+      164098.95871177842
+    ],
+    "n_star_correct_median": 60363.24858735231,
+    "hours_at_rate": 45.065689018140915,
+    "p_cnn_dominates": 0.0
+  },
+  {
+    "cnn": "resnet50",
+    "clip": "clip_probe",
+    "p_breakeven_exists": 1.0,
+    "n_star_median": 158783.31552461736,
+    "n_star_ci95": [
+      157463.16453295902,
+      160020.31916512345
+    ],
+    "n_star_correct_median": 153566.82499593523,
+    "hours_at_rate": 44.10647653461593,
+    "p_cnn_dominates": 0.0
+  }
+]

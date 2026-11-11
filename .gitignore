@@ -1,0 +1,24 @@
+# Environment, caches, tools
+.venv/
+.cache/
+tools/
+__pycache__/
+*.pyc
+
+# Dataset (CC BY-NC-ND 4.0, must not be redistributed) and checkpoints (too large)
+data/
+results/ckpt/
+
+# Course material, templates, notes and old versions
+Conference-LaTeX-template_10-17-19/
+Word-Letter-A4/
+Zero-Shot_or_Fine-Tuned_Abstract.pdf
+peer_review_template.md
+PLAN.md
+reports/
+research_notes/
+umschreiben/
+paper/main_vor_*.tex
+paper/main_vor_*.pdf
+paper/refs_old_draft.bib
+paper/refs_vor_review.bib

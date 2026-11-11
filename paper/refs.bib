@@ -1,0 +1,371 @@
+% ==================== TIER A: core list (20) ====================
+
+@inproceedings{radford2021clip,
+  author    = {Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya},
+  title     = {Learning Transferable Visual Models From Natural Language Supervision},
+  booktitle = {Proc. 38th Int. Conf. Machine Learning (ICML)},
+  series    = {Proc. Mach. Learn. Res.},
+  volume    = {139},
+  pages     = {8748--8763},
+  year      = {2021},
+  note      = {{Table}~11 and Fig.~8 are cited from the extended version, arXiv:2103.00020}
+}
+% Table 11 (ViT-B/32: 63.2% ImageNet, 58.4% PCam) and Fig. 8 ("10 to 25 points") exist only in the arXiv version;
+% checked 2026-11-11: the 16-page PMLR version contains neither, hence "of the extended version" in the text
+
+@inproceedings{jeong2023winclip,
+  author    = {Jeong, Jongheon and Zou, Yang and Kim, Taewan and Zhang, Dongqing and Ravichandran, Avinash and Dabeer, Onkar},
+  title     = {{WinCLIP}: Zero-/Few-Shot Anomaly Classification and Segmentation},
+  booktitle = {Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {19606--19616},
+  year      = {2023},
+  doi       = {10.1109/CVPR52729.2023.01878}
+}
+
+@inproceedings{zhou2024anomalyclip,
+  author    = {Zhou, Qihang and Pang, Guansong and Tian, Yu and He, Shibo and Chen, Jiming},
+  title     = {{AnomalyCLIP}: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection},
+  booktitle = {Proc. Int. Conf. Learning Representations (ICLR)},
+  year      = {2024}
+}
+% verified 2026-11-03 in ICLR 2024 proceedings (proceedings.iclr.cc, hash d7b50b8ac2c781a12f26155f48310d8d); ICLR has no pages/DOI
+
+@inproceedings{luccioni2024power,
+  author    = {Luccioni, Sasha and Jernite, Yacine and Strubell, Emma},
+  title     = {Power Hungry Processing: Watts Driving the Cost of {AI} Deployment?},
+  booktitle = {Proc. ACM Conf. Fairness, Accountability, and Transparency (FAccT)},
+  publisher = {ACM},
+  pages     = {85--99},
+  year      = {2024},
+  doi       = {10.1145/3630106.3658542}
+}
+
+@article{patterson2022plateau,
+  author  = {Patterson, David and Gonzalez, Joseph and H{\"o}lzle, Urs and Le, Quoc and Liang, Chen and Munguia, Lluis-Miquel and Rothchild, Daniel and So, David R. and Texier, Maud and Dean, Jeff},
+  title   = {The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink},
+  journal = {Computer},
+  volume  = {55},
+  number  = {7},
+  pages   = {18--28},
+  year    = {2022},
+  doi     = {10.1109/MC.2022.3148714}
+}
+
+@inproceedings{wang2023finetuning,
+  author    = {Wang, Xiaorong and Na, Clara and Strubell, Emma and Friedler, Sorelle and Luccioni, Sasha},
+  title     = {Energy and Carbon Considerations of Fine-Tuning {BERT}},
+  booktitle = {Findings Assoc. Computational Linguistics: EMNLP 2023},
+  address   = {Singapore},
+  publisher = {Association for Computational Linguistics},
+  pages     = {9058--9069},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.findings-emnlp.607}
+}
+
+@article{schwartz2020greenai,
+  author  = {Schwartz, Roy and Dodge, Jesse and Smith, Noah A. and Etzioni, Oren},
+  title   = {Green {AI}},
+  journal = {Commun. ACM},
+  volume  = {63},
+  number  = {12},
+  pages   = {54--63},
+  year    = {2020},
+  doi     = {10.1145/3381831}
+}
+
+@article{desislavov2023trends,
+  author  = {Desislavov, Radosvet and Mart{\'\i}nez-Plumed, Fernando and Hern{\'a}ndez-Orallo, Jos{\'e}},
+  title   = {Trends in {AI} Inference Energy Consumption: Beyond the Performance-vs-Parameter Laws of Deep Learning},
+  journal = {Sustainable Computing: Informatics and Systems},
+  volume  = {38},
+  pages   = {100857},
+  year    = {2023},
+  doi     = {10.1016/j.suscom.2023.100857}
+}
+
+@inproceedings{schoene2021zen2,
+  author    = {Sch{\"o}ne, Robert and Ilsche, Thomas and Bielert, Mario and Velten, Markus and Schmidl, Markus and Hackenberg, Daniel},
+  title     = {Energy Efficiency Aspects of the {AMD} {Zen} 2 Architecture},
+  booktitle = {Proc. IEEE Int. Conf. Cluster Computing (CLUSTER)},
+  pages     = {562--571},
+  year      = {2021},
+  doi       = {10.1109/Cluster48925.2021.00087}
+}
+
+@article{raffin2025rapl,
+  author  = {Raffin, Guillaume and Trystram, Denis},
+  title   = {Dissecting the Software-Based Measurement of {CPU} Energy Consumption: A Comparative Analysis},
+  journal = {IEEE Trans. Parallel Distrib. Syst.},
+  volume  = {36},
+  number  = {1},
+  pages   = {96--107},
+  year    = {2025},
+  doi     = {10.1109/TPDS.2024.3492336}
+}
+
+@inproceedings{yang2024gpupower,
+  author    = {Yang, Zeyu and Adamek, Karel and Armour, Wesley},
+  title     = {Accurate and Convenient Energy Measurements for {GPUs}: A Detailed Study of {NVIDIA} {GPU}'s Built-In Power Sensor},
+  booktitle = {Proc. Int. Conf. High Performance Computing, Networking, Storage and Analysis (SC)},
+  pages     = {1--17},
+  year      = {2024},
+  doi       = {10.1109/SC41406.2024.00028}
+}
+
+@inproceedings{jay2023softwaremeters,
+  author    = {Jay, Mathilde and Ostapenco, Vladimir and Lef{\`e}vre, Laurent and Trystram, Denis and Orgerie, Anne-C{\'e}cile and Fichel, Benjamin},
+  title     = {An Experimental Comparison of Software-Based Power Meters: Focus on {CPU} and {GPU}},
+  booktitle = {Proc. IEEE/ACM 23rd Int. Symp. Cluster, Cloud and Internet Computing (CCGrid)},
+  pages     = {106--118},
+  year      = {2023},
+  doi       = {10.1109/CCGrid57682.2023.00020}
+}
+
+@article{fahad2019comparative,
+  author  = {Fahad, Muhammad and Shahid, Arsalan and Manumachu, Ravi Reddy and Lastovetsky, Alexey},
+  title   = {A Comparative Study of Methods for Measurement of Energy of Computing},
+  journal = {Energies},
+  volume  = {12},
+  number  = {11},
+  pages   = {2204},
+  year    = {2019},
+  doi     = {10.3390/en12112204}
+}
+
+@misc{dabhi2020casting,
+  author       = {Dabhi, Ravirajsinh},
+  title        = {Casting Product Image Data for Quality Inspection},
+  howpublished = {Kaggle dataset, version 2},
+  url          = {https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product},
+  note         = {License CC BY-NC-ND 4.0. Accessed: Nov. 3, 2026},
+  year         = {2020}
+}
+% verified 2026-11-03 via Kaggle API: owner Ravirajsinh Dabhi, v1 2020-01-23, v2 2020-07-02, CC BY-NC-ND 4.0; no official citation/DOI
+
+@article{sundaram2023smart,
+  author  = {Sundaram, Sarvesh and Zeid, Abe},
+  title   = {Artificial Intelligence-Based Smart Quality Inspection for Manufacturing},
+  journal = {Micromachines},
+  volume  = {14},
+  number  = {3},
+  pages   = {570},
+  year    = {2023},
+  doi     = {10.3390/mi14030570}
+}
+
+@article{diep2025hidranet,
+  author  = {Diep, Quoc Bao},
+  title   = {Identifying Defective Casting Products Using Hierarchical Defect Recognition Architecture: A Computer Vision Approach},
+  journal = {Adv. Mech. Eng.},
+  volume  = {17},
+  number  = {4},
+  pages   = {16878132251332681},
+  year    = {2025},
+  doi     = {10.1177/16878132251332681}
+}
+% fields verified via Crossref; full text not read (cite only the 99.8% abstract claim)
+
+@inproceedings{howard2019mobilenetv3,
+  author    = {Howard, Andrew and Sandler, Mark and Chu, Grace and Chen, Liang-Chieh and Chen, Bo and Tan, Mingxing and Wang, Weijun and Zhu, Yukun and Pang, Ruoming and Vasudevan, Vijay and Le, Quoc V. and Adam, Hartwig},
+  title     = {Searching for {MobileNetV3}},
+  booktitle = {Proc. IEEE/CVF Int. Conf. Computer Vision (ICCV)},
+  pages     = {1314--1324},
+  year      = {2019},
+  doi       = {10.1109/ICCV.2019.00140}
+}
+% author order as on CVF/arXiv; Crossref/IEEE order differs
+
+@inproceedings{he2016resnet,
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  title     = {Deep Residual Learning for Image Recognition},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {770--778},
+  year      = {2016},
+  doi       = {10.1109/CVPR.2016.90}
+}
+
+@misc{ilharco2021openclip,
+  author       = {Ilharco, Gabriel and Wortsman, Mitchell and Wightman, Ross and Gordon, Cade and Carlini, Nicholas and Taori, Rohan and Dave, Achal and Shankar, Vaishaal and Namkoong, Hongseok and Miller, John and Hajishirzi, Hannaneh and Farhadi, Ali and Schmidt, Ludwig},
+  title        = {{OpenCLIP}},
+  howpublished = {Zenodo},
+  month        = jul,
+  year         = {2021},
+  doi          = {10.5281/zenodo.5143773},
+  url          = {https://doi.org/10.5281/zenodo.5143773}
+}
+% verified 2026-11-03: author list and fields match the citation requested in the open_clip README
+% 2026-11-11: "version 0.1" removed (it is the version of the Zenodo record, not the one used; the paper
+% states the installed version 3.3.0 in the text); url added because IEEEtran.bst does not print the doi
+
+@inproceedings{paszke2019pytorch,
+  author    = {Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and K{\"o}pf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith},
+  title     = {{PyTorch}: An Imperative Style, High-Performance Deep Learning Library},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {32},
+  publisher = {Curran Associates, Inc.},
+  year      = {2019}
+}
+% no pages on the NeurIPS page; do NOT add 8024--8035
+
+% ==================== TIER B: swap-ins up to 22 ====================
+
+@article{khan2018rapl,
+  author  = {Khan, Kashif Nizam and Hirki, Mikael and Niemi, Tapio and Nurminen, Jukka K. and Ou, Zhonghong},
+  title   = {{RAPL} in Action: Experiences in Using {RAPL} for Power Measurements},
+  journal = {ACM Trans. Model. Perform. Eval. Comput. Syst.},
+  volume  = {3},
+  number  = {2},
+  pages   = {9:1--9:26},
+  year    = {2018},
+  doi     = {10.1145/3177754}
+}
+% Intel results only; cite together with schoene2021zen2
+
+@inproceedings{roth2022patchcore,
+  author    = {Roth, Karsten and Pemula, Latha and Zepeda, Joaquin and Sch{\"o}lkopf, Bernhard and Brox, Thomas and Gehler, Peter},
+  title     = {Towards Total Recall in Industrial Anomaly Detection},
+  booktitle = {Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {14298--14308},
+  year      = {2022},
+  doi       = {10.1109/CVPR52688.2022.01392}
+}
+
+@article{russakovsky2015ilsvrc,
+  author  = {Russakovsky, Olga and Deng, Jia and Su, Hao and Krause, Jonathan and Satheesh, Sanjeev and Ma, Sean and Huang, Zhiheng and Karpathy, Andrej and Khosla, Aditya and Bernstein, Michael and Berg, Alexander C. and Fei-Fei, Li},
+  title   = {{ImageNet} Large Scale Visual Recognition Challenge},
+  journal = {Int. J. Comput. Vis.},
+  volume  = {115},
+  number  = {3},
+  pages   = {211--252},
+  year    = {2015},
+  doi     = {10.1007/s11263-015-0816-y}
+}
+
+@inproceedings{strubell2019energy,
+  author    = {Strubell, Emma and Ganesh, Ananya and McCallum, Andrew},
+  title     = {Energy and Policy Considerations for Deep Learning in {NLP}},
+  booktitle = {Proc. 57th Annu. Meeting Assoc. Computational Linguistics (ACL)},
+  address   = {Florence, Italy},
+  pages     = {3645--3650},
+  year      = {2019},
+  doi       = {10.18653/v1/P19-1355}
+}
+
+@inproceedings{wu2022sustainable,
+  author    = {Wu, Carole-Jean and Raghavendra, Ramya and Gupta, Udit and Acun, Bilge and Ardalani, Newsha and Maeng, Kiwan and Chang, Gloria and Aga, Fiona and Huang, Jinshi and Bai, Charles and Gschwind, Michael and Gupta, Anurag and Ott, Myle and Melnikov, Anastasia and Candido, Salvatore and Brooks, David and Chauhan, Geeta and Lee, Benjamin and Lee, Hsien-Hsin and Akyildiz, Bugra and Balandat, Maximilian and Spisak, Joe and Jain, Ravi and Rabbat, Mike and Hazelwood, Kim},
+  title     = {Sustainable {AI}: Environmental Implications, Challenges and Opportunities},
+  booktitle = {Proc. Machine Learning and Systems (MLSys)},
+  volume    = {4},
+  pages     = {795--813},
+  year      = {2022}
+}
+% UNVERIFIED (secondary bibliographies only) - check MLSys PDF or delete
+
+% ==================== TIER C: reserve (only if a sentence needs them) ====================
+
+@article{zhou2022coop,
+  author  = {Zhou, Kaiyang and Yang, Jingkang and Loy, Chen Change and Liu, Ziwei},
+  title   = {Learning to Prompt for Vision-Language Models},
+  journal = {Int. J. Comput. Vis.},
+  volume  = {130},
+  number  = {9},
+  pages   = {2337--2348},
+  year    = {2022},
+  doi     = {10.1007/s11263-022-01653-1}
+}
+
+@inproceedings{cao2024adaclip,
+  author    = {Cao, Yunkang and Zhang, Jiangning and Frittoli, Luca and Cheng, Yuqi and Shen, Weiming and Boracchi, Giacomo},
+  title     = {{AdaCLIP}: Adapting {CLIP} with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection},
+  booktitle = {Computer Vision -- ECCV 2024, Part XXXV},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {15093},
+  pages     = {55--72},
+  publisher = {Springer},
+  address   = {Cham},
+  year      = {2024},
+  doi       = {10.1007/978-3-031-72761-0_4}
+}
+% UNVERIFIED (derived from series numbering) - verify or delete
+
+@article{henderson2020reporting,
+  author  = {Henderson, Peter and Hu, Jieru and Romoff, Joshua and Brunskill, Emma and Jurafsky, Dan and Pineau, Joelle},
+  title   = {Towards the Systematic Reporting of the Energy and Carbon Footprints of Machine Learning},
+  journal = {J. Mach. Learn. Res.},
+  volume  = {21},
+  number  = {248},
+  pages   = {1--43},
+  year    = {2020},
+  url     = {https://jmlr.org/papers/v21/20-312.html}
+}
+
+@inproceedings{luccioni2025rebound,
+  author    = {Luccioni, Alexandra Sasha and Strubell, Emma and Crawford, Kate},
+  title     = {From Efficiency Gains to Rebound Effects: The Problem of {Jevons'} Paradox in {AI}'s Polarized Environmental Debate},
+  booktitle = {Proc. ACM Conf. Fairness, Accountability, and Transparency (FAccT)},
+  publisher = {ACM},
+  year      = {2025},
+  doi       = {10.1145/3715275.3732007}
+}
+% pages UNVERIFIED
+
+@inproceedings{yang2025hiddenjoules,
+  author    = {Yang, Zeyu and Armour, Wesley},
+  title     = {The Hidden Joules: Evaluating the Energy Consumption of Vision Backbones for Progress Towards More Efficient Model Inference},
+  booktitle = {Proc. 42nd Int. Conf. Machine Learning (ICML)},
+  year      = {2025}
+}
+% PMLR volume (267?) and pages UNVERIFIED
+
+@article{ren2022defect,
+  author  = {Ren, Zhonghe and Fang, Fengzhou and Yan, Ning and Wu, You},
+  title   = {State of the Art in Defect Detection Based on Machine Vision},
+  journal = {Int. J. Precis. Eng. Manuf.-Green Technol.},
+  volume  = {9},
+  number  = {2},
+  pages   = {661--691},
+  year    = {2022},
+  doi     = {10.1007/s40684-021-00343-6}
+}
+% metadata verified; content not read - do not attribute specific claims
+
+@inproceedings{dosovitskiy2021vit,
+  author    = {Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil},
+  title     = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  booktitle = {Proc. Int. Conf. Learning Representations (ICLR)},
+  year      = {2021}
+}
+% venue from arXiv:2010.11929 comment; OpenReview not opened
+
+% --- added 2026-11-11 after peer review ---
+@inproceedings{bergmann2019mvtec,
+  author    = {Bergmann, Paul and Fauser, Michael and Sattlegger, David and Steger, Carsten},
+  title     = {{MVTec AD} --- A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection},
+  booktitle = {Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {9584--9592},
+  year      = {2019},
+  doi       = {10.1109/CVPR.2019.00982}
+}
+% verified 2026-11-11 via Crossref (title, authors, pages 9584-9592)
+
+@inproceedings{veeling2018rotation,
+  author    = {Veeling, Bastiaan S. and Linmans, Jasper and Winkens, Jim and Cohen, Taco and Welling, Max},
+  title     = {Rotation Equivariant {CNNs} for Digital Pathology},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2018},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer},
+  pages     = {210--218},
+  year      = {2018},
+  doi       = {10.1007/978-3-030-00934-2_24}
+}
+% verified 2026-11-11 via Crossref (introduces PatchCamelyon); LNCS volume number not in the Crossref record, left out
+
+@article{pedregosa2011sklearn,
+  author  = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\'E}douard},
+  title   = {Scikit-learn: Machine Learning in {Python}},
+  journal = {J. Mach. Learn. Res.},
+  volume  = {12},
+  pages   = {2825--2830},
+  year    = {2011}
+}
+% verified 2026-11-11 on jmlr.org/papers/v12/pedregosa11a.html; JMLR has no DOI
